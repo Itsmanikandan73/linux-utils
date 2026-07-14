@@ -6,4 +6,4 @@ The utilites foucs on basic File I/O(Input/Output) and standard streams.
 
 - ### cat ***(Concatenate)***
     - What it does: Reads files and prints their contents to the terminal.
-    Line 1
+    - *Concepts learned*: open(), read(), write(), close(), handling stdin (standard input)
