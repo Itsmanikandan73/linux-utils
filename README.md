@@ -4,5 +4,6 @@ Building my own version of classic Linux command-line utilities for understandin
 ## 1.The Essentials(Warm-Up)
 The utilites foucs on basic File I/O(Input/Output) and standard streams.
 
-
-
+- ### cat ***(Concatenate)***
+    - What it does: Reads files and prints their contents to the terminal.
+    Line 1
