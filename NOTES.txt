@@ -1,0 +1,19 @@
+15/07/26
+    my_cat.c
+    my_echo.c 
+    my_true.c  
+    my_false.c 
+
+
+Descriptor Name	          Value	            Description
+STDIN_FILENO	           0	            Standard input
+STDOUT_FILENO	           1	            Standard output
+STDERR_FILENO	           2	            Standard error
+
+Warm-up Phase programs
+----------------------
+my_cat
+my_echo
+my_true or my_false programs  ---> check using the echo $? output
+
+
