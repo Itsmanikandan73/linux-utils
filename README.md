@@ -1,5 +1,10 @@
 # linux-utils
-Building my own version of classic Linux command-line utilities for understanding the the Linux API, file systems, and how operating system works under the hood. In this project there are four diffrent phrases to complete it.
+Building my own version of classic Linux command-line utilities for understanding the the Linux API, file systems, and how operating system works under the hood. In this project there are four diffrent phases to complete it.
+
+- phase1 *The Essentials(Warm-up)*
+- phase2 *Fil*es and Directory Explores(Intermediate)*
+- phase3 *Data Manipulators(Intermediate)*
+- phase4 *System & Process Managers (Advanced)*
 
 ## 1.The Essentials(Warm-Up)
 The utilites foucs on basic File I/O(Input/Output) and standard streams.
@@ -15,4 +20,3 @@ The utilites foucs on basic File I/O(Input/Output) and standard streams.
 - ### false and true
     - What it does: Literally does nothing except exit with a 0 (true) or 1 (false) status code
     - *Concepts learned*: Process exit codes.
-    
