@@ -20,3 +20,18 @@ The utilites foucs on basic File I/O(Input/Output) and standard streams.
 - ### true and false
     - What it does: Literally does nothing except exit with a 0 (true) or 1 (false) status code
     - *Concepts learned*: Process exit codes.
+
+## 2.File and Directory Explorers(Intermediate)
+These require interacting with the Linux file system structure and metadata.
+
+- ### ls (List)
+    - What it does: List directory contents. Start with just names, then add flags like -l (long format) and -a (hidden files).
+    - *Concepts learned*: opendir(), readdir(), retrieving file metadata using stat(), formatting file permissions, users, and timestamps.
+
+- ### pwn (Print Working Directory)
+    - What it does: Outputs the absolute path of the current directory.
+    - *Concepts learned*: getcwd() system call, or manually traversing parent directories(..) up to the root(/).
+
+- ### mkdir (Make Directory)
+    - What it does: Creates a new directory.
+    - Concepts learned: mkdir() system call, file mode bits/permission (chmod concepts).
