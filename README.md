@@ -35,3 +35,18 @@ These require interacting with the Linux file system structure and metadata.
 - ### mkdir (Make Directory)
     - What it does: Creates a new directory.
     - Concepts learned: mkdir() system call, file mode bits/permission (chmod concepts).
+
+## 3.Data Manipulators (Intermediate)
+These force you to manage memory effciency, line buffers, and basic string manipulation.
+- ### wc **(Word Count)**
+    - What it does: Counts lines, words, and bytes in a file.
+    - Concepts learned: Character-by-character processing, tracking state(inside/outside a word),standard streams.
+
+- ### head **and** tail
+    - What it does: Prints the first or last N lines of a file.
+    - Concepts learned: Ring buffers/circular queues (especially for *tail*, so you don't load a massive file entirely into memory)
+
+- ### grep **(Global Regular Expression Print)**
+    - What it does: Searches files for a specific string pattern.Start with basic string matching, then try integrating a simple regex library.
+    - Concept learned: Line-by-line file reading (*getline()*), string searching algorithms.
+    
