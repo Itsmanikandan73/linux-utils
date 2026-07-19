@@ -48,5 +48,18 @@ These force you to manage memory effciency, line buffers, and basic string manip
 
 - ### grep **(Global Regular Expression Print)**
     - What it does: Searches files for a specific string pattern.Start with basic string matching, then try integrating a simple regex library.
-    - Concept learned: Line-by-line file reading (**getline()**), string searching algorithms.
+    - Concepts learned: Line-by-line file reading (**getline()**), string searching algorithms.
+
+## 4. System & Process Managers(Advanced)
+- ### kill
+    - What it does: Sends a signal to a process(usually to terminate it).
+    - Concepts learned: The **kill()** system call, understanding POSIX signals (like SIGTEM, SIGKILL).
+
+- ### env
+    - What it does: Prints a list of current environment variables.
+    - Concepts learned: Accessing the global environ pointer in c.
+
+- ### uptime **or** free
+    - What it does: Shows how long the system has been running. or how much RAM is available.
+    - Concepts learned: Parsing data from the **/proc** virtual file system (specifically **/proc/uptime** or **proc/meminfo**)
     
