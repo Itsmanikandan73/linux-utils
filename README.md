@@ -48,5 +48,5 @@ These force you to manage memory effciency, line buffers, and basic string manip
 
 - ### grep **(Global Regular Expression Print)**
     - What it does: Searches files for a specific string pattern.Start with basic string matching, then try integrating a simple regex library.
-    - Concept learned: Line-by-line file reading (*getline()*), string searching algorithms.
+    - Concept learned: Line-by-line file reading (**getline()**), string searching algorithms.
     
